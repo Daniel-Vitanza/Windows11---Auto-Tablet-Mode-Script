@@ -33,7 +33,7 @@ If this concerns the keyboards you actually want to consider (as you will define
     ```
 4. Once edited, save and close the editor !
 5. Import "AutoTabletMode - TaskScheduler.xml" as new task in the Windows "Task Scheduler".
-6. Done - Test it !
+6. Done - Reboot - Test it !
 
 ## Future Options
 * Automatic keyboard language selection if you use both azerty and qwerty keyboards for instance.
