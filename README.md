@@ -2,17 +2,24 @@
 This script triggers the tablet mode of Win11 for computers where input devices like volume buttons are considered HID keyboards by Win11. Typical example is OneXplayer X1 Air.
 
 ## Context
+In Win11, tablet mode (better touch experience) is triggered when no HID Keyboards is detected by Windows.
+However, on some computers, some other devices like volume buttons are considered as HID Keyboards by Windows. 
+This is for instance the case with the OneXPlayer X1 Air and results in two major inconveniences:
+* The touch keyboard does not automatically popups when using the touchscreen without any keyboards connected.
+* Taskbar and buttons size+behaviour are not adjusted to improve the touch experience.
 
 
 ## Solution
 This script will run in the background with almost no ram/cpu usage. It will monitor the connection/disconnection of keyboards devices.
 If this concerns the keyboards you actually want to consider (as you will define in the script), the script will modified the value of the Win11 tablet mode key in the registry according to the presence or absence of the keyboards.
 
+
 ## Key Features
 * Automatically enable/disable tablet mode in Win11 based on the keyboards you want to consider.
 * Almost no ram/cpu usage.
 * Can be configured for more than 1 keyboard.
 * Easy to install (less than 5min)
+
 
 ## Installation
 1. Copy the script "AutoTabletMode.ps1" into a folder C:\Scripts .
