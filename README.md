@@ -9,10 +9,10 @@ This script will run in the background with almost no ram/cpu usage. It will mon
 If this concerns the keyboards you actually want to consider (as you will define in the script), the script will modified the value of the Win11 tablet mode key in the registry according to the presence or absence of the keyboards.
 
 ## Key Features
-*Automatically enable/disable tablet mode in Win11 based on the keyboards you want to consider.
-*Almost no ram/cpu usage.
-*Can be configured for more than 1 keyboard.
-*Easy to install (less than 5min)
+* Automatically enable/disable tablet mode in Win11 based on the keyboards you want to consider.
+* Almost no ram/cpu usage.
+* Can be configured for more than 1 keyboard.
+* Easy to install (less than 5min)
 
 ## Installation
 
