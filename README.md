@@ -35,5 +35,8 @@ If this concerns the keyboards you actually want to consider (as you will define
 5. Import "AutoTabletMode - TaskScheduler.xml" as new task in the Windows "Task Scheduler".
 6. Done - Test it !
 
+## Future Options
+* Automatic keyboard language selection if you use both azerty and qwerty keyboards for instance.
+
 ## Disclosure
 Don't blame me if you break something on your computer. Use it at your own risk.
