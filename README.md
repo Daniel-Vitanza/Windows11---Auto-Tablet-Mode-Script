@@ -15,11 +15,18 @@ If this concerns the keyboards you actually want to consider (as you will define
 * Easy to install (less than 5min)
 
 ## Installation
+1. Copy the script "AutoTabletMode.ps1" into a folder C:\Scripts .
+2. Open the script with notepad or something equivalent.
+3. Edit the following two lines with the "VID & PID" values of the keyboards you want to consider. By default, the script was written for the OneXPlayer X1 Air and its detachable keyboard. If you own the same computer, it should work as-is. KeyboardB is there if you want to consider another keyboard like a Logitech one.
 
-```
-$KeyboardA = "VID_258A&PID_001E"
-$KeyboardB = "xx"
-```
+    In this case or if you don't have the same computer as me, you will need to find out the "VID & PID" values of the keyboard you want to consider by checking the properties of devices/drivers in the Windows "Device Manager".
+    ```
+    $KeyboardA = "VID_258A&PID_001E"
+    $KeyboardB = "xx"
+    ```
+4. Once edited, save and close the editor !
+5. Import "AutoTabletMode - TaskScheduler.xml" as new task in the Windows "Task Scheduler".
+6. Done - Test it !
 
 ## Disclosure
 Don't blame me if you break something on your computer. Use it at your own risk.
